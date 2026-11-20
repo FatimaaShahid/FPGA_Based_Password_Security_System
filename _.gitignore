@@ -1,0 +1,19 @@
+# Vivado generated files - regenerate by opening the .xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+
+# Logs and journals
+*.jou
+*.log
+*.backup.*
+
+# Bitstreams (attach to GitHub Releases instead if you want to share them)
+*.bit
+
+# OS junk
+.DS_Store
+Thumbs.db

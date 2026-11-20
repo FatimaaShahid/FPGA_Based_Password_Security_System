@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../abcd 2.srcs/sources_1/new/audio_controller.v" \
+"../../../../abcd 2.srcs/sources_1/new/button_debounce.v" \
+"../../../../abcd 2.srcs/sources_1/new/password_controller.v" \
+"../../../../abcd 2.srcs/sources_1/new/seven_segment.v" \
+"../../../../abcd 2.srcs/sources_1/new/top_module.v" \
+"../../../../abcd 2.srcs/sim_1/new/tb_top_module.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
