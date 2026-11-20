@@ -114,6 +114,4 @@ In Vivado, set `tb_top_module` (or `tb_password_controller`) as the simulation t
 - `keypad_scanner.v` is an empty stub, reserved for a possible keypad input.
 - The `SAVED` message uses a `U` glyph as an approximation of `V`.
 
-## License
 
-Add a license of your choice (for example MIT) as `LICENSE`.
